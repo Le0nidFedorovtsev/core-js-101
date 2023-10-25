@@ -115,7 +115,7 @@ function removeFalsyValues(arr) {
  *    [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ]  => [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
  */
 function getUpperCaseStrings(arr) {
-;
+
 }
 
 
@@ -344,7 +344,7 @@ function getItemsSum(arr) {
  *  [ null, undefined, NaN, false, 0, '' ]  => 6
  */
 function getFalsyValuesCount(/* arr */) {
-     
+
 }
 
 /**
@@ -362,7 +362,7 @@ function getFalsyValuesCount(/* arr */) {
  *    [ true, 0, 1, 'true' ], true => 1
  */
 function findAllOccurrences(/* arr, item */) {
-     
+
 }
 
 /**
@@ -377,7 +377,7 @@ function findAllOccurrences(/* arr, item */) {
  *    ['rock', 'paper', 'scissors']     => 'rock,paper,scissors'
  */
 function toStringList(/* arr */) {
-     
+
 }
 
 
@@ -408,7 +408,7 @@ function toStringList(/* arr */) {
  *    ]
  */
 function sortCitiesArray(/* arr */) {
-     
+
 }
 
 /**
@@ -430,7 +430,7 @@ function sortCitiesArray(/* arr */) {
  *           [0,0,0,0,1]]
  */
 function getIdentityMatrix(/* n */) {
-     
+
 }
 
 /**
@@ -447,7 +447,7 @@ function getIdentityMatrix(/* n */) {
  *     3, 3   => [ 3 ]
  */
 function getIntervalArray(/* start, end */) {
-     
+
 }
 
 /**
@@ -462,7 +462,7 @@ function getIntervalArray(/* start, end */) {
  *   [ 1, 1, 2, 2, 3, 3, 4, 4] => [ 1, 2, 3, 4]
  */
 function distinct(/* arr */) {
-     
+
 }
 
 /**
@@ -496,7 +496,7 @@ function distinct(/* arr */) {
  *   }
  */
 function group(/* array, keySelector, valueSelector */) {
-     
+
 }
 
 
@@ -514,7 +514,7 @@ function group(/* array, keySelector, valueSelector */) {
  *   ['one','two','three'], (x) => x.split('')  =>   ['o','n','e','t','w','o','t','h','r','e','e']
  */
 function selectMany(/* arr, childrenSelector */) {
-     
+
 }
 
 
@@ -531,7 +531,7 @@ function selectMany(/* arr, childrenSelector */) {
  *   [[[ 1, 2, 3]]], [ 0, 0, 1 ]      => 2        (arr[0][0][1])
  */
 function getElementByIndexes(/* arr, indexes */) {
-     
+
 }
 
 
@@ -554,7 +554,7 @@ function getElementByIndexes(/* arr, indexes */) {
  *
  */
 function swapHeadAndTail(/* arr */) {
-     
+
 }
 
 

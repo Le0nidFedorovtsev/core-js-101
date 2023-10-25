@@ -20,7 +20,7 @@
  */
 function concatenateStrings(value1, value2) {
   return value1 + value2;
-};
+}
 
 
 /**
@@ -36,7 +36,7 @@ function concatenateStrings(value1, value2) {
  */
 function getStringLength(value) {
   return value.length;
-};
+}
 
 /**
  * Returns the result of string template and given parameters firstName and lastName.
@@ -53,7 +53,7 @@ function getStringLength(value) {
  */
 function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
-};
+}
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
@@ -66,7 +66,7 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function extractNameFromTemplate(value) {
-  return value.substring(7, value.length - 1)
+  return value.substring(7, value.length - 1);
 }
 
 
@@ -81,8 +81,8 @@ function extractNameFromTemplate(value) {
  *   'cat'       => 'c'
  */
 function getFirstChar(value) {
-    return value[0];
-};
+  return value[0];
+}
 
 /**
  * Removes a leading and trailing whitespace characters from string.
@@ -96,7 +96,7 @@ function getFirstChar(value) {
  *   '\tHello, World! ' => 'Hello, World!'
  */
 function removeLeadingAndTrailingWhitespaces(value) {
-    return value.trim()
+  return value.trim();
 }
 
 /**
@@ -111,7 +111,7 @@ function removeLeadingAndTrailingWhitespaces(value) {
  *   'cat', 3 => 'catcatcat'
  */
 function repeatString(value, count) {
-    return value.repeat(count)
+  return value.repeat(count);
 }
 
 /**
@@ -127,7 +127,7 @@ function repeatString(value, count) {
  *   'ABABAB','BA' => 'ABAB'
  */
 function removeFirstOccurrences(str, value) {
-  return str.replace(str.indexOf(value), "");
+  return str.replace(str.indexOf(value), '');
 }
 
 /**
@@ -142,7 +142,7 @@ function removeFirstOccurrences(str, value) {
  *   '<a>' => 'a'
  */
 function unbracketTag(str) {
-  return str.substring(1, str.length-1)
+  return str.substring(1, str.length - 1);
 }
 
 
@@ -157,7 +157,7 @@ function unbracketTag(str) {
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
 function convertToUpperCase(str) {
-  return str.toUpperCase()
+  return str.toUpperCase();
 }
 
 /**
@@ -176,7 +176,7 @@ function convertToUpperCase(str) {
  *   'info@gmail.com' => ['info@gmail.com']
  */
 function extractEmails(str) {
-  return str.split(";")
+  return str.split(';');
 }
 
 /**
@@ -203,7 +203,7 @@ function extractEmails(str) {
  *
  */
 function getRectangleString(width, height) {
-  
+
 }
 
 

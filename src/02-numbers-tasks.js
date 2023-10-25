@@ -20,7 +20,7 @@
  *   5, 5  => 25
  */
 function getRectangleArea(width, height) {
-  return width * height
+  return width * height;
 }
 
 
@@ -36,7 +36,7 @@ function getRectangleArea(width, height) {
  *   0    => 0
  */
 function getCircleCircumference(radius) {
-  return radius * 2 * 3.14
+  return radius * 2 * 3.14;
 }
 
 /**
@@ -52,7 +52,7 @@ function getCircleCircumference(radius) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  return value1 + value2 / 2
+  return value1 + value2 / 2;
 }
 
 /**
@@ -71,9 +71,9 @@ function getAverage(value1, value2) {
  *   (-5,0) (10,-10) => 18.027756377319946
  */
 function getDistanceBetweenPoints(x1, y1, x2, y2) {
-  Math.sqrt(((x2-x1) ** 2) + ((y2-y1) ** 2))
+  Math.sqrt(((x2 - x1) ** 2) + ((y2 - y1) ** 2));
 }
-  
+
 
 /**
  * Returns a root of linear equation a*x + b = 0 given by coefficients a and b.
